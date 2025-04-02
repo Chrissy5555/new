@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Team - Інноваційний партнер у світі криптовалют</title>
+    <style>
+        /* Загальні стилі */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0d1117;
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        h1, h2, p {
+            margin: 0;
+        }
+
+        /* Стилі шапки */
+        header {
+            background: #161b22;
+            padding: 40px 20px;
+            color: white;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        header p {
+            font-size: 20px;
+        }
+
+        /* Контейнер для контенту */
+        .container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #21262d;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .section {
+            padding: 60px 0;
+            background-color: #282c34;
+            border-bottom: 2px solid #444;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Кнопки */
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #1f6feb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0d4b98;
+        }
+
+        /* Елементи списку */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Анімації */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        /* Стилі футера */
+        footer {
+            background: #161b22;
+            padding: 20px;
+            color: #aaa;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        /* Плавний скрол */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Блоки з інфографікою */
+        .feature {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .feature div {
+            background: #333;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            transition: transform 0.3s ease;
+        }
+        .feature div:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="fade-in">
+        <h1>Crypto Team</h1>
+        <p>Інноваційний партнер у світі криптовалют</p>
+    </header>
+
+    <div class="container fade-in">
+        <div class="section">
+            <h2>Чому обирають нас?</h2>
+            <p>Ми надаємо професійну допомогу в світі криптовалют, інвестуванні та забезпечуємо вам найкращу аналітику для прийняття рішень.</p>
+            <ul>
+                <li>Професійний аналіз Bitcoin, Ethereum та інших криптовалют</li>
+                <li>Індивідуальні консультації з безпечного зберігання криптовалют</li>
+                <li>Прогнози та поради від провідних експертів</li>
+            </ul>
+            <a href="#" class="button">Дізнатися більше</a>
+        </div>
+
+        <div class="section">
+            <h2>Наші послуги</h2>
+            <div class="feature">
+                <div>
+                    <h3>Аналіз Ринку</h3>
+                    <p>Ми надаємо точні дані для розуміння тенденцій на ринку криптовалют.</p>
+                </div>
+                <div>
+                    <h3>Інвестиційні Стратегії</h3>
+<p>Розробляємо індивідуальні стратегії для максимального прибутку.</p>
+                </div>
+                <div>
+                    <h3>Безпека та Підтримка</h3>
+                    <p>Ми забезпечуємо ваші активи на найвищому рівні безпеки.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Приєднуйтесь до нас сьогодні!</h2>
+            <p>Отримайте доступ до нашої інструментальної платформи та почніть інвестувати безпечно прямо зараз.</p>
+            <a href="#" class="button">Приєднатися</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Crypto Team | Власник: Вернадський Артур Едуардович</p>
+    </footer>
+
+</body>
+</html>
